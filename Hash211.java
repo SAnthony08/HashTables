@@ -95,7 +95,7 @@ public class Hash211<K, V> {
       HashNode<K, V> head = HashMap.get(hash).peek(); //gets first node
       while (head != null) { //iterates while theres still a next object
         if (head.key.equals(key)) { //checks for equality of the keys
-          if (print == true) { //prints shit if needed
+          if (print == true) { //prints if needed
             long endTime = System.nanoTime() - start;
             System.out.println(endTime);
           }
